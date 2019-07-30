@@ -14,6 +14,7 @@ steps:
   displayName: 'Run Jekyll'
   inputs:
     containerRegistryType: 'Container Registry'
+    azureContainerRegistry: 'DockerFirst1'
     action: 'Run an image'
     imageName: 'jekyll/builder:latest'
     volumes: |
